@@ -16,7 +16,13 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Notes
 
-Feel free to modify the source code in anyway that you see fit.
+Reasons for approach:
+- using dndkit library as it seemed to be the closest fit for the functionality required
+- saves time, comes with accessibility out of the box
+
+How I would improve this:
+- Write unit/end to end integration tests for the handleDragEnd function
+- Convert to TypeScript
 
 ---
 

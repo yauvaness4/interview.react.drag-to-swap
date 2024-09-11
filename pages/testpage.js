@@ -1,5 +1,5 @@
 import Head from "next/head";
-import PrintPage from "../components/printPage";
+import PrintPage from "../components/printPage/printPage";
 import styled from "styled-components";
 
 const PageHeader = styled.div`
@@ -49,6 +49,8 @@ export default function Testpage() {
             images: [
               "https://videodelivery.net/9ad2bb839e4e3cc1074e5d73b0a0379b/thumbnails/thumbnail.jpg?height=1080",
               "https://imagedelivery.net/66_qOEcY2UwnECf5ON9PhQ/bde5b129-52ba-4f43-b3f4-97591952ea00/large",
+              "https://placehold.it/300x150",
+              "https://placehold.it/400x200?bg=red"
             ],
           },
           {
